@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "EZ Viewing",
+  "version": "1.0.0",
+  "description": "A Chrome extension for easy viewing",
+  "content_scripts": [
+    {
+      "matches": ["*://*.easyllama.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [],
+  "host_permissions": ["*://*.easyllama.com/*"]
+}
