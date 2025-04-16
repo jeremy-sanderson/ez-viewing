@@ -49,4 +49,3 @@ setInterval(() => {
   makeLlamaEasier();
   preventWindowBlurPause();
 }, 5000);
- 
